@@ -1,5 +1,6 @@
 package first_bad_version_278
 
+// https://leetcode-cn.com/problems/first-bad-version/
 /*
 278. 第一个错误的版本
 你是产品经理，目前正在带领一个团队开发新的产品。不幸的是，你的产品的最新版本没有通过质量检测。由于每个版本都是基于之前的版本开发的，所以错误的版本之后的所有版本都是错的。
@@ -26,7 +27,7 @@ func firstBadVersion(n int) int {
 		// i=5 j=10 (j-i)/2=2 idx=5+2
 		// i=1 j=10 (j-i)/2=4 idx=1+4
 		// i=1 j=1 (j-i)/2=0 idx=1+0
-		idx := i + (j-i)/2
+		idx := i + (j - i>>1)
 		if isBadVersion(idx) {
 			j = idx
 			continue
