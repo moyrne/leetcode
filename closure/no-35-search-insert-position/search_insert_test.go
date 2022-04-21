@@ -1,4 +1,4 @@
-package search_insert_position_35
+package no_35_search_insert_position
 
 import "testing"
 

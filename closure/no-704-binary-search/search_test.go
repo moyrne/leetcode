@@ -1,4 +1,4 @@
-package binary_search_704
+package no_704_binary_search
 
 import "testing"
 

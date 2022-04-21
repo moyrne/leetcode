@@ -1,4 +1,4 @@
-package shortest_distance_to_a_character_821
+package no_821_shortest_distance_to_a_character
 
 import (
 	"reflect"

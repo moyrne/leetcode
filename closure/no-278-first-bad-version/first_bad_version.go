@@ -1,4 +1,4 @@
-package first_bad_version_278
+package no_278_first_bad_version
 
 // https://leetcode-cn.com/problems/first-bad-version/
 /*
