@@ -13,7 +13,7 @@ func Test_findTheWinner(t *testing.T) {
 		want int
 	}{
 		{
-			name: "实例-1",
+			name: "示例-1",
 			args: args{
 				n: 5,
 				k: 2,
@@ -21,7 +21,7 @@ func Test_findTheWinner(t *testing.T) {
 			want: 3,
 		},
 		{
-			name: "实例-2",
+			name: "示例-2",
 			args: args{
 				n: 6,
 				k: 5,

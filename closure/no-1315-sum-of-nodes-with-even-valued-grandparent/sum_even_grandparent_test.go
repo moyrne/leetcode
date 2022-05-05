@@ -12,7 +12,7 @@ func Test_sumEvenGrandparent(t *testing.T) {
 		want int
 	}{
 		{
-			name: "实例-1",
+			name: "示例-1",
 			args: args{
 				root: &TreeNode{
 					Val: 6,

@@ -15,14 +15,14 @@ func Test_reorderLogFiles(t *testing.T) {
 		want []string
 	}{
 		{
-			name: "实例-1",
+			name: "示例-1",
 			args: args{
 				logs: []string{"dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero"},
 			},
 			want: []string{"let1 art can", "let3 art zero", "let2 own kit dig", "dig1 8 1 5 1", "dig2 3 6"},
 		},
 		{
-			name: "实例-2",
+			name: "示例-2",
 			args: args{
 				logs: []string{"a1 9 2 3 1", "g1 act car", "zo4 4 7", "ab1 off key dog", "a8 act zoo"},
 			},
